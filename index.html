@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./libs/aos/aos.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- ==== navBar === -->
+    <div id="navbar"></div>
+    <main>
+      <!-- ========== HERO =============== -->
+
+      <section class="hero-section" id="home">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <h2 class="hero-title">Hello, I'm <span id="hero-name"></span></h2>
+            <h3 class="hero-role"><span id="hero-role"></span></h3>
+            <p id="hero-description"></p>
+            <div class="hero-buttons">
+              <a href="./projects/projects.html" class="btn primary-btn">
+                View Projects</a
+              >
+              <a href="./contact/contact.html" class="btn secondary-btn"
+                >Contact Me</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-image" data-aos="fade-up">
+            <div class="hero-avatar">
+              <img id="hero-img" src="" alt="Profile Image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============= TOP PROJECTS ============== -->
+
+      <section class="top-projects section" id="top-projects">
+        <div class="projects-container container">
+          <h2 class="section-title">Top Projects</h2>
+          <div id="topProjectsContainer" class="projects-grid"></div>
+
+          <div class="center-btn">
+            <a href="./projects/projects.html" class="btn btn-outline"
+              >View All Projects</a
+            >
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============= MY SKILLS ============== -->
+
+      <section class="skills-section section" id="skills">
+        <div class="container-skills container">
+          <h2 class="section-title">My Skills</h2>
+          <p class="section-subtitle">Technologies & Tools I use</p>
+
+          <div class="skills-flex"></div>
+        </div>
+      </section>
+
+      <!-- ============= TESTIMONIALS ============== -->
+
+      <section class="testimonials section" id="testimonials">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">Testimonials</h2>
+
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper"></div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============= CTA ============== -->
+      <section class="cta-section" id="cta">
+        <canvas id="particles-bg"></canvas>
+        <div class="cta-container container" data-aos="fade-up">
+          <h2 class="cta-title">Interested in working together?</h2>
+          <p class="cta-text">
+            Let's discuss your next project or collaboration opportunity.
+          </p>
+
+          <div class="cta-buttons">
+            <a href="./contact/contact.html" class="btn primary-btn">
+              Let's Talk</a
+            >
+            <a href="./projects/projects.html" class="btn btn-outline"
+              >View My Work</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <div id="footer"></div>
+    <script src="./libs/aos/aos.js"></script>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./partials/layout.js" type="module"></script>
+    <script src="./home.js" type="module"></script>
+  </body>
+</html>

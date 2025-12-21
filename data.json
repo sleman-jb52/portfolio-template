@@ -1,0 +1,463 @@
+{
+  "owner": {
+    "name": "Your Name",
+    "role": "Your role",
+    "logoText": "JD",
+    "socials": {
+      "linkedIn": "https://linkedin.com/in/sleman",
+      "github": "https://github.com/in/slemanjabee",
+      "twitter": "https://tiwtter.com/in/slemanjabee"
+    }
+  },
+
+  "home": {
+    "name": "Sleman AL jbaee",
+    "role": "Frontend Developer",
+    "description": "I create modern, fast, and responsive websites to help brands grow online.",
+    "image": "./images/me2.png",
+    "highlights": {
+      "yearsExperience": "4",
+      "completedProjects": "28",
+      "satisfiedClients": "16"
+    },
+    "topProjects": [
+      {
+        "id": "p1",
+        "title": "project1 name ",
+        "tech": "React, Tailwind,ChartJs",
+        "image": "./images/img.jpg",
+        "link": "single.html?id=p1",
+        "source": "#"
+      },
+      {
+        "id": "p2",
+        "title": "project2 name ",
+        "tech": "React, Tailwind,ChartJs",
+        "image": "./images/img.jpg",
+        "link": "single.html?id=p2",
+        "source": "#"
+      },
+      {
+        "id": "p2",
+        "title": "project2 name ",
+        "tech": "React, Tailwind,ChartJs",
+        "image": "./images/img.jpg",
+        "link": "single.html?id=p2",
+        "source": "#"
+      },
+      {
+        "id": "p2",
+        "title": "project2 name ",
+        "tech": "React, Tailwind,ChartJs",
+        "image": "./images/img.jpg",
+        "link": "single.html?id=p2",
+        "source": "#"
+      }
+    ]
+  },
+
+  "projects": [
+    {
+      "id": "1",
+      "title": "Creative Portfolio Website",
+      "description": "Modern UI, Smooth Animations $ Clean Code",
+      "thumbnail": "../images/img.jpg",
+      "heroImage": "../images/img.jpg",
+  
+      "overview": "This modern portfolio template features a clean UI, dark theme, AOS animations, and a fully responsive layout suitable for developers, designers, and freelancers.",
+  
+      "details": {
+        "category": "Web Development",
+        "client": "Personal Project",
+        "date": "2024",
+        "role": "Frontend Developer",
+        "duration": "2 Weeks"
+      },
+  
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "AOS Animation",
+        "SwiperJS",
+        "Responsive Design",
+        "UI/UX"
+      ],
+  
+      "screenshots": [
+        {
+          "src": "../images/original-hero-fd791ba8c192da0c73271187f4f5237b.png",
+          "caption": "Homepage"
+        },
+        {
+          "src": "../images/original-DASHBORAD-e0164ade6a2bb9c915ef53ce1e1858e8.png",
+          "caption": "Dashboard UI"
+        },
+        {
+          "src": "../images/GRADIENT 91ab9cae3fdb5dbc2d263cb2db125621.png",
+          "caption": "screenshot-3"
+        },
+        {
+          "src": "../images/original-b2eff517c55fc031d9bcbbfc8f1e633c.jpg",
+          "caption": "screenshot-4"
+        }
+      ],
+  
+      "features": [
+        "Animated smooth scroll",
+        "Dark and light mode",
+        "Reusable components",
+        "SEO optimized markup",
+        "Fully responsive design"
+      ],
+  
+      "challenges": [
+        "Maintaining high performance with many animations",
+        "Achieving pixel-perfect responsiveness",
+        "Creating modular JS for dynamic content"
+      ],
+  
+      "whatILearned": [
+        "Advanced animation structure",
+        "Better responsive CSS architecture",
+        "Managing large projects with JSON-based data"
+      ],
+  
+      "links": {
+        "liveDemo": "https://your-live-demo.com",
+        "sourceCode": "https://github.com/your-project-repo"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Creative Portfolio Website",
+      "description": "Modern UI, Smooth Animations $ Clean Code",
+      "thumbnail": "../images/original-325d2a47d0073947e1e0685702dff547.png",
+      "heroImage": "../images/img.jpg",
+
+      "overview": "This modern portfolio template features a clean UI, dark theme, AOS animations, and a fully responsive layout suitable for developers, designers, and freelancers.",
+
+      "details": {
+        "category": "Web Development",
+        "client": "Personal Project",
+        "date": "2024",
+        "role": "Frontend Developer",
+        "duration": "2 Weeks"
+      },
+
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "AOS Animation",
+        "SwiperJS",
+        "Responsive Design",
+        "UI/UX"
+      ],
+
+      "screenshots": [
+        {
+          "src": "../images/original-hero-fd791ba8c192da0c73271187f4f5237b.png",
+          "caption": "Homepage"
+        },
+        {
+          "src": "../images/original-DASHBORAD-e0164ade6a2bb9c915ef53ce1e1858e8.png",
+          "caption": "Dashboard UI"
+        },
+        {
+          "src": "../images/GRADIENT 91ab9cae3fdb5dbc2d263cb2db125621.png",
+          "caption": "screenshot-3"
+        },
+        {
+          "src": "../images/original-b2eff517c55fc031d9bcbbfc8f1e633c.jpg",
+          "caption": "screenshot-4"
+        }
+      ],
+
+      "features": [
+        "Animated smooth scroll",
+        "Dark and light mode",
+        "Reusable components",
+        "SEO optimized markup",
+        "Fully responsive design"
+      ],
+
+      "challenges": [
+        "Maintaining high performance with many animations",
+        "Achieving pixel-perfect responsiveness",
+        "Creating modular JS for dynamic content"
+      ],
+
+      "whatILearned": [
+        "Advanced animation structure",
+        "Better responsive CSS architecture",
+        "Managing large projects with JSON-based data"
+      ],
+
+      "links": {
+        "liveDemo": "https://your-live-demo.com",
+        "sourceCode": "https://github.com/your-project-repo"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Deneiel",
+      "description": "Modern UI, Smooth Animations $ Clean Code",
+      "thumbnail": "../images/original-hero-fd791ba8c192da0c73271187f4f5237b.png",
+      "heroImage": "../images/img.jpg",
+
+      "overview": "This modern portfolio template features a clean UI, dark theme, AOS animations, and a fully responsive layout suitable for developers, designers, and freelancers.",
+
+      "details": {
+        "category": "Web Development",
+        "client": "Personal Project",
+        "date": "2024",
+        "role": "Frontend Developer",
+        "duration": "2 Weeks"
+      },
+
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "AOS Animation",
+        "SwiperJS",
+        "Responsive Design",
+        "UI/UX"
+      ],
+
+      "screenshots": [
+        {
+          "src": "../images/original-hero-fd791ba8c192da0c73271187f4f5237b.png",
+          "caption": "Homepage"
+        },
+        {
+          "src": "../images/original-DASHBORAD-e0164ade6a2bb9c915ef53ce1e1858e8.png",
+          "caption": "Dashboard UI"
+        },
+        {
+          "src": "../images/GRADIENT 91ab9cae3fdb5dbc2d263cb2db125621.png",
+          "caption": "screenshot-3"
+        },
+        {
+          "src": "../images/original-b2eff517c55fc031d9bcbbfc8f1e633c.jpg",
+          "caption": "screenshot-4"
+        }
+      ],
+
+      "features": [
+        "Animated smooth scroll",
+        "Dark and light mode",
+        "Reusable components",
+        "SEO optimized markup",
+        "Fully responsive design"
+      ],
+
+      "challenges": [
+        "Maintaining high performance with many animations",
+        "Achieving pixel-perfect responsiveness",
+        "Creating modular JS for dynamic content"
+      ],
+
+      "whatILearned": [
+        "Advanced animation structure",
+        "Better responsive CSS architecture",
+        "Managing large projects with JSON-based data"
+      ],
+
+      "links": {
+        "liveDemo": "https://your-live-demo.com",
+        "sourceCode": "https://github.com/your-project-repo"
+      }
+    }
+  ],
+
+  "mySkills": [
+    {
+      "icon": "fab fa-html5",
+      "name": "HTML"
+    },
+    {
+      "icon": "fab fa-css3-alt",
+      "name": "CSS"
+    },
+    {
+      "icon": "fab fa-js-square",
+      "name": "java Script"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "client name",
+      "role": "role name",
+      "image": "./images/avatar.png",
+      "feedback": "sleman Lorem ipsum dolor sit amet consectetur adipisicing elit nsdnnj Lorem ipsum dolor sit amet consectetur adipisicing elit nsdnnj Lorem ipsum dolor sit amet consectetur adipisicing elit nsdnnj   "
+    },
+    {
+      "name": "client name",
+      "role": "role name",
+      "image": "./images/avatar.png",
+      "feedback": "Lorem ipsum dolor sit amet consectetur adipisicing elit nsdnnj Lorem ipsum dolor sit amet consectetur adipisicing elit nsdnnj Lorem ipsum dolor sit amet consectetur adipisicing elit nsdnnj   "
+    },
+    {
+      "name": "client name",
+      "role": "role name",
+      "image": "./images/avatar.png",
+      "feedback": "Lorem ipsum dolor sit amet consectetur adipisicing elit nsdnnj Lorem ipsum dolor sit amet consectetur adipisicing elit nsdnnj Lorem ipsum dolor sit amet consectetur adipisicing elit nsdnnj   "
+    },
+    {
+      "name": "client name",
+      "role": "role name",
+      "image": "./images/avatar.png",
+      "feedback": "jawad Lorem ipsum dolor sit amet consectetur adipisicing elit nsdnnj Lorem ipsum dolor sit amet consectetur adipisicing elit nsdnnj Lorem ipsum dolor sit amet consectetur adipisicing elit nsdnnj   "
+    }
+  ],
+  "contact": {
+    "title": "Get IN Touch",
+    "description": "I'm Open To Freelance Work or Collaboration Opportunities. Let's Build Something great Together!",
+    "email": "Your Email",
+    "phone": "Your Phone",
+    "location": "your city , Your Country",
+    "socials": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/yourprofile",
+        "icon": "fab fa-linkedin"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/yourusername",
+        "icon": "fab fa-github"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/yourhandle",
+        "icon": "fab fa-twitter"
+      }
+    ]
+  },
+  "about": {
+    "intro": "I'm a Frontend Developer with 4+ years of experience .... Passionate About Design And Creativity, I Specialize In Crafting Unique Portfolio Templates That Elevate Your Personal Brand.Let's Create Something Extraordinary Together!",
+    "avatar": "/images/avatar.png",
+    "cvLink": "files/cv.pdf",
+    "personalInfo": {
+      "location": "syria",
+      "experience": "2+ years",
+      "languages": ["English", "Arabic"],
+      "freelance": "Available",
+      "email": "Your Email",
+      "phone": "Your Phone"
+    },
+    "skills": {
+      "Frontend": ["HTML", "CSS", "JavaScript"],
+      "backend": ["Node.js", "Express"],
+      "tools": ["Git", "VSCode", "Figma"]
+    },
+    "experience": [
+      {
+        "period": "2021 - Present",
+        "role": "Frontend Developer",
+        "company": "ABC Company",
+        "details": ["Developer responsive apps", "Improved Performance by 30%"],
+        "logo": "../images/avatar.png",
+        "summary": "creating and optimizing modern UI experience using React and Next.js"
+      },
+      {
+        "period": "2021 - Present",
+        "role": "Frontend Developer",
+        "company": "ABC Company",
+        "details": ["Developer responsive apps", "Improved Performance by 30%"],
+        "logo": "../images/avatar.png",
+        "summary": "creating and optimizing modern UI experience using React and Next.js"
+      },
+      {
+        "period": "2021 - Present",
+        "role": "Frontend Developer",
+        "company": "ABC Company",
+        "details": ["Developer responsive apps", "Improved Performance by 30%"],
+        "logo": "../images/avatar.png",
+        "summary": "creating and optimizing modern UI experience using React and Next.js"
+      },
+      {
+        "period": "2021 - Present",
+        "role": "Frontend Developer",
+        "company": "ABC Company",
+        "details": ["Developer responsive apps", "Improved Performance by 30%"],
+        "logo": "../images/avatar.png",
+        "summary": "creating and optimizing modern UI experience using React and Next.js"
+      }
+    ],
+    "Achievements": [
+      {
+        "title": "Projects Completed",
+        "count": "20 years"
+      },
+      {
+        "title": "Clients Served",
+        "count": "12+"
+      },
+      {
+        "title": "Clients Served",
+        "count": "1client"
+      },
+      {
+        "title": "Clients Served",
+        "count": "6"
+      },
+      {
+        "title": "Clients Served",
+        "count": 10
+      },
+      {
+        "title": "Clients Served",
+        "count": 10
+      },
+      {
+        "title": "Clients Served",
+        "count": 10
+      }
+    ],
+    "Certifications": [
+      {
+        "title": "Frontend Developer Certification",
+        "issuer": "Meta",
+        "link": "hhtps://example.com/certificate"
+      },
+      {
+        "title": "Frontend Developer Certification",
+        "issuer": "Meta",
+        "link": "hhtps://example.com/certificate"
+      },
+      {
+        "title": "Frontend Developer Certification",
+        "issuer": "Meta",
+        "link": "hhtps://example.com/certificate"
+      },
+      {
+        "title": "UI/UX Design Course",
+        "issuer": "Google"
+      }
+    ],
+    "Philosophy": "I believe in clean code,user-centered design, and continuous learning. "
+  },
+
+  "navbar": {
+    "logo": "../images/avatar.png",
+    "text": "MYPORTFOLIO"
+  },
+
+  "footer": {
+    "name": "Sleman AL Jbaee",
+    "role": "Frontend Developer",
+    "location": "Syria",
+    "contact": {
+      "email": "Your Email",
+      "phone": "Your Phone"
+    },
+    "social": {
+      "linkedin": "https://linkedin.com/in/slemanjabee",
+      "github": "https://github.com/in/slemanjabee",
+      "twitter": "https://tiwtter.com/in/slemanjabee"
+    }
+  }
+}
