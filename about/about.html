@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../libs/aos/aos.css" />
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="./about.css" />
+    <title>About</title>
+  </head>
+  <body>
+    <!-- ================== navbar ================== -->
+    <div id="navbar"></div>
+
+    <main> 
+      <section id="about" class="about-section section">
+        <div class="container about-inner">
+          <!-- =============== left: avatar + ctas =============== -->
+          <aside class="about-left">
+            <div class="avatar-card">
+              <div class="avatar-wrap">
+                <img id="about-avatar" src="" alt="Profile avatar" />
+              </div>
+
+            </div>
+          </aside>
+          
+          <!-- ================== right: title + intro ==================== -->
+          <div class="about-right">
+            <h2 class="about-title">About Me</h2>
+            <p id="about-intro" class="about-intro"></p>
+            <div class="avatar-ctas">
+              <a
+                id="cv-btn"
+                class="btn btn-primary"
+                href="#"
+                target="_blank"
+                rel="noopener"
+                >Download CV</a
+              >
+              <a
+                id="contact-btn"
+                class="btn btn-outline"
+                href="/contact/contact.html"
+                >Contact Me</a
+              >
+            </div>
+          </div>
+
+        </section>
+
+
+        <!-- ================== Personal Info ==================== -->
+        <section id="personal" class="personal-section section" aria-labelledby="personal-info-title">
+          <div class="container personal-inner">
+            <h3 id="personal-info-title" class="sub-title">Personal Info</h3>
+            <div class="personal-grid" id="personal-grid" role="list"></div>
+          </div>
+      </section>
+
+     <!-- ================== CORE SKILLS ================== -->
+      <section class="core-skills-section section" id="core-skills">
+        <div class="container">
+          <h3 class="sub-title">Core Skills</h3>
+          <!-- skills groups wrapper -->
+           <div class="skills-groups">
+           </div>
+        </div>
+      </section>
+
+     <!-- ================== EXPERIENCE ================== -->
+      <section class="experience-section" id="experience">
+        <div class="container">
+          <h3 class="sub-title">Experience</h3>
+          <div class="experience-timeline" id="experience-timeline">
+
+          </div>
+        </div>
+      </section>
+
+     <!-- ================== ACHIEVEMENTS ================== -->
+      <section class="achievements-section" id="achievements">
+        <div class="container achievements-container">
+          <h3 class="sub-title">Achievements</h3>
+
+          <!-- js will inject stat-items here -->
+          <div class="achievements-grid" id="achievements-grid" role="list" aria-label="key-achievements"></div>
+        </div>
+      </section>
+
+     <!-- ================== CERTIFICATION ================== -->
+      <section class="certifications-section" id="certifications">
+        <div class="container certifications-container">
+          <h3 class="sub-title">Certifications</h3>
+          <!-- Certifications Grid -->
+           <div class="certifications-grid" id="certifications-grid">
+            <!-- js will inject certification cards here -->
+           </div>
+        </div>
+      </section>
+
+     <!-- ================== PHILOSOPHY ================== -->
+      <section class="philosophy-section" id="philosophy">
+        <div class="container philosophy-container">
+          <div class="philosophy-box" data-aos="fade-up">
+             <span class="philosophy-accent"></span>
+             <h3 class="philosophy-quote">My Philosophy In Work...</h3>
+             <p class="philosophy-text" id="philosophy-text"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="footer"></div>
+    <script src="../libs/aos/aos.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../partials/layout.js" type="module"></script>
+    <script src="./about.js" type="module"></script>
+  </body>
+  </html>
