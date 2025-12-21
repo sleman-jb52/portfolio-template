@@ -1,1 +1,328 @@
+/* ================================== 
+        Base / Global Styles    
+   ================================== */
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+body {
+  margin: 0;
+  font-family: "poppins", sans-serif;
+  background-color: #090b0f;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.section-header {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 50px;
+}
+.section-title {
+  font-size: 2.2rem;
+  color: #8b6cff;
+  margin-bottom: 10px;
+}
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #9da2b0;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+/* ================ BACK TO TOP BUTTON ==================== */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: #1c1f2a;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.35s ease;
+  z-index: 999;
+}
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.back-to-top i {
+  font-size: 22px;
+  color: #8b6cff;
+  transition: color 0.3s ease, transform 0.3s ease;
+  animation: arrowFloatSimple 1.8s ease-in-out infinite;
+}
+@keyframes arrowFloatSimple {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.back-to-top:hover,
+.back-to-top:active {
+  background: #8b6cff;
+}
+.back-to-top:hover i,
+.back-to-top:active i {
+  color: #ffffff;
+}
+.back-to-top:hover i {
+  animation-play-state: paused;
+  transform: translateY(-2px);
+}
+@media (max-width: 576px) {
+  .back-to-top {
+    bottom: 16px;
+    right: 16px;
+  }
+}
+
+/* ====================================
+               PAGE LOADER
+====================================*/
+/* .page-loader {
+  position: absolute;
+  inset: 0;
+  background: #090b0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+.page-loader.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.loader-content {
+  text-align: center;
+}
+.loader-brand {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+  display: block;
+}
+.loader-bar {
+  width: 160px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.15);
+  overflow: hidden;
+  border-radius: 2px;
+}
+.loader-bar span {
+  display: block;
+  height: 100%;
+  width: 40%;
+  background: #8b6cff;
+  animation: loaderMove 1.4s ease-in-out infinite;
+}
+body.loading {
+  overflow: hidden;
+}
+@keyframes loaderMove {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+} */
+/* .page-loader {
+  position: fixed;
+  inset: 0;
+  background: #0b0d12;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.loader-inner {
+  text-align: center;
+}
+.loader-logo {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 16px;
+  opacity: 0;
+  animation: logoFade 0.8s ease forwards;
+}
+.loader-line {
+  display: block;
+  width: 140px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+.loader-line::before {
+  content: "";
+  position: absolute;
+  left: -40%;
+  width: 40%;
+  height: 100%;
+  background: #8b6cff;
+  animation: lineMove 1.2s ease-in-out infinite;
+}
+@keyframes logoFade {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes lineMove {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(140%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.page-loader.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+} */
+/* ========================== */
+/* .page-loader {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at center, #0e2a35, #071a22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.circle-loader {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.circle-loader::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.08);
+}
+.circle-loader::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #42e8ff;
+  border-right-color: #42e8ff;
+  filter: drop-shadow(0 0 6px rgba(66, 232, 255, 0.8));
+  animation: rotateArc 1.4s linear infinite;
+}
+.loader-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+}
+@keyframes rotateArc {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.page-loader.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+} */
+
+/* ========================= */
+.page-loader {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at center, #0e2a35, #071a22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.progeess-circle {
+  position: relative;
+  width: 180px;
+  height: 180px;
+}
+.progeess-circle svg {
+  transform: rotate(-90deg);
+}
+.circle-bg {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.08);
+  stroke-width: 4;
+}
+.circle-progress {
+  fill: none;
+  stroke: #42e8ff;
+  stroke-width: 4;
+  stroke-linecap: round;
+  filter: drop-shadow(0 0 8px rgba(66, 232, 255, 0.8));
+  stroke-dasharray: 502;
+  stroke-dashoffset: 502;
+  transition: stroke-dashoffest 0.3s linear;
+}
+.progeess-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.progeess-text span {
+  font-size: 22px;
+  font-weight: 600;
+}
+.page-loader.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+body.loading {
+  overflow: hidden;
+}
