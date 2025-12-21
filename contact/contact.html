@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="./contact.css" />
+    <title>Contact</title>
+  </head>
+  <body>
 
+    <div id="navbar"></div>
+
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title" id="contact-title"></h2>
+        <p class="section-description" id="contact-descripition"></p>
+
+        <div class="contact-contact">
+          <div class="contact-info">
+            <p><i class="fas fa-envelope"></i><strong>Email : </strong> <span id="contact-email"></span></p>
+            <p><i class="fas fa-phone"></i><strong>Phone : </strong> <span id="contact-phone"></span></p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i>
+              <strong>Location : </strong> <span id="contact-location"></span>
+            </p>
+
+            <div class="contact-socials" id="contact-socials"></div>
+          </div>
+
+          <form action="" class="contact-form">
+            <input type="text" name="" id="" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer"></div>
+    <script src="./contact.js" type="module"></script>
+    <script src="../partials/layout.js" type="module"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
