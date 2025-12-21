@@ -1,1 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="../libs/aos/aos.css" />
+    <link rel="stylesheet" href="../libs/Glightbox/glightbox.min.css" />
+    <link rel="stylesheet" href="../assets/css/base.css" />
+    <link rel="stylesheet" href="./singleProject.css" />
+    <title>Project</title>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <!-- ========================== PROJECT HERO ========================= -->
+    <section class="project-hero" id="project-hero" aria-label="project-hero">
+      <div
+        class="hero-cover"
+        id="hero-cover"
+        role="img"
+        aria-hidden="true"
+      ></div>
+      <div class="hero-overlay"></div>
 
+      <div class="hero-content container">
+        <div class="hero-left">
+          <p class="project-meta" id="project-meta"></p>
+          <h1 class="project-title" id="project-title"></h1>
+          <p class="project-subtitle" id="project-subtitle"></p>
+
+          <div class="project-tags" id="project-tags" aria-hidden="false"></div>
+
+          <div class="hero-ctas">
+            <a
+              class="btn primary-btn"
+              id="viewLive-btn"
+              target="_blank"
+              rel="noopener"
+              >View Live</a
+            >
+            <a
+              class="btn outline-btn"
+              id="viewSource-btn"
+              target="_blank"
+              rel="noopener"
+              >Get Source</a
+            >
+            <a
+              href="../projects/projects.html"
+              class="btn ghost-btn"
+              id="back-top-project"
+              target="_blank"
+              rel="noopener"
+              >Back to Projects</a
+            >
+          </div>
+        </div>
+
+        <div class="hero-right" id="hero-right" aria-hidden="true">
+          <ul class="project-quick">
+            <li>
+              <strong id="project-client"><span>Client</span></strong>
+            </li>
+            <li>
+              <strong id="project-data"><span>Data</span></strong>
+            </li>
+            <li>
+              <strong id="project-category"><span>Category</span></strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- ========================== PROJECT OVERVIEW ========================= -->
+    <section class="project-overview-section" id="project-overview">
+      <div class="container">
+        <div class="overview-grid">
+          <!-- LEFT - OVERVIEW TEXT -->
+          <div class="overview-left">
+            <h3 class="overview-title">Project Overview</h3>
+            <p id="projectOverview" class="overview-text">
+              <!-- js will inject overview paragraph -->
+            </p>
+          </div>
+
+          <!-- RIGHT - PROJECT DETAILS -->
+          <aside class="overview-details" data-aos="fade-left">
+            <h4 class="details-title">Project Details</h4>
+
+            <ul class="details-list" id="projectDetails">
+              <!-- js will inject li items: Category, Client, Date, Role, Duration -->
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+    <!-- ========================== PROJECT SCREENSHOTS ========================= -->
+    <section class="project-screenshots-section" id="project-screenshots">
+      <div class="container">
+        <h3 class="screenshot-title">Project Screenshots</h3>
+        <p class="screenshot-subtitle">
+          A closer look at the interface and interaction inside the project.
+        </p>
+        <div class="swiper screenshots-swiper">
+          <div class="swiper-wrapper" id="screenshots-wrapper">
+            <!-- js will inject screenshot items here -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================== FEATURES ========================= -->
+    <section class="project-features-section" id="project-features">
+      <div class="container">
+        <div class="features-header">
+          <h3 class="features-title">Key Features</h3>
+          <p class="features-subtitle">
+            Core functionalities and highlights of this project
+          </p>
+        </div>
+        <!-- Features Grid (js will inject items here) -->
+        <div class="features-grid" id="features-grid"></div>
+      </div>
+    </section>
+
+    <!-- ========================== CHALLENGES ========================= -->
+    <section class="project-challenges-section" id="project-challenges">
+      <div class="container">
+        <div class="challenges-header">
+          <h3 class="challenges-title">Challenges</h3>
+          <p class="challenges-subtitle">
+            Key challenges faced during the development of this project.
+          </p>
+        </div>
+
+        <!-- challenges list -->
+        <ul class="challenges-list" id="challenges-list">
+          <!-- js will inject challenges items here -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========================== WHAT I LEARNED ====================== -->
+    <section class="project-learned-section" id="project-learned">
+      <div class="container">
+        <div class="whILearned-header">
+          <h3 class="whIlearned-title">What I Learned</h3>
+          <p class="whIlearned-subtitle">
+            Key takeaways and lessons gained while working on this project.
+          </p>
+        </div>
+        <!-- learned list -->
+        <ul class="learned-list" id="learned-list">
+          <!-- js will inject learned items here -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========================== BOTTOM CTA ====================== -->
+    <section class="project-cta-section" id="project-cta">
+      <div class="container">
+        <div
+          class="project-cta-content"
+          data-aos="fade-up"
+          data-aos-once="true"
+        >
+          <h3 class="project-cta-title">Interested in this project?</h3>
+          <p class="project-cta-subtitle">
+            Explore the live version, review the source code, or reture to the
+            project list.
+          </p>
+
+          <div class="project-cta-actions" id="project-cta-action">
+            <!-- js will inject buttons here -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <div id="footer"></div>
+    <script src="../swiper/swiper-bundle.min.js"></script>
+    <script src="../libs/aos/aos.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../partials/layout.js"></script>
+    <script src="../libs/Glightbox/glightbox.min.js"></script>
+    <script src="./single.js" type="module"></script>
+  </body>
+</html>
